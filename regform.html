@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Registeration</title>
+<link rel="stylesheet" href="reg.css" type="text/css">
+</head>
+<h2>Register Here</h2>
+<body>
+	<div class="main">
+		<div class="register">
+		<form id="register" method="post" action="login.html" onsubmit="myFun()"  ><br>
+		<label id="r1">First Name :</label>
+		<br>
+		<input type="text" class="name"  id="first" placeholder="Enter Your First Name" required>
+		<br><br>
+		<label>Last Name :</label>
+		<br>
+		<input type="text" class="name" id="last" placeholder="Enter Your Last Name" required>
+		<br><br>
+		<label>Mobile Number :</label>
+		<br>
+		<input type="tell" class="name" id="mobile" placeholder="Enter Your Mobile Number" required>
+		<br><br>
+		<label> Email :</label>
+		<br>
+		<input type="email" class="name" id="email" placeholder="Enter Valid Email ID" required>
+		<br><br>
+		<label> Password :</label>
+		<br>
+		<input type="password" class="name" id="password" placeholder="Must contain [A-Z][a-z][0-9]" onkeyup="passCheck(this.value)" required>
+		<br><br>
+		<label id="l1" >#Atleast One Uppercase Charcter</label><br>
+		<label id="l2">#Atleast One Lowercase Character</label><br>
+		<label id="l3">#Atleast One Digit</label><br>
+		<br><label> Location :</label>
+		<select class="name" id="location" name="location" required>
+		<option value="">Select Location</option>
+		<option value="">Visakhapatnam</option>
+		<option value="">Vizianagaram</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Submit" id="submit" >
+		<br>
+		</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+background-color:#E18875;
+}
+div.main{
+	width:500px;
+	margin:35px auto;
+}
+h2{
+	text-align:center;
+	padding:10px;
+	font-family:cursive;
+	color:#6D2D1F;
+}
+div.register{
+	background-color:rgb(156,128,128);
+	width:100%;
+	margin-left:20px;
+	font-size:18px;
+	color:white;
+}
+form#register{
+	margin:50px;
+}
+label{
+	font-family:cursive;
+	font-size:19px;
+	font-style:bold;
+	margin-left:65px;
+}
+input.name{
+	width:250px;
+	padding:5px;
+	font-family:cursive;
+	margin-left:65px;
+	border:1px solid;
+	border-radius:3px;
+	box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+	margin-left:100px;
+	width:180px;
+	border:1px solid;
+	box-shadow:1px 1px 3px white;
+	margin-bottom:20px;
+	cursor:pointer;
+	padding:10px;
+	background-color:black;
+	font-family:times new roman;
+	color:white;
+}
+
+
